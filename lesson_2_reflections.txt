@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+On executing git init .git directory is created which maintains respository structure.
+All the information about the commits and repository revision history is stored in this
+directory.
+

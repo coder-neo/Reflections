@@ -1,0 +1,52 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+As shown in lecture video finding little bugs or small typo is a tedious task, moreover in
+several programming languages the type checking is not that strict so code might work without
+any error. I guess in such cases a diff tool might come in handy.
+
+How could having easy access to the entire history of a file make you a more efficient
+programmer in the long term?
+
+We all know that programmers write a program or application by creating certain milestones and
+suppose after completing certain milestone I screwed up my code and I want ot revert back to code
+till the previous milestone. To make changes manually to the file is a tedious task, moreover the
+changes can be in multiple files. So if I had entire history of my project which I saved, let's say
+after each milestone, then it would save me lot of time.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you
+do in Git, vs having versions automatically saved, like Google Docs does?
+
+Manual Saving
+Pros : We can save the changes to files, if there is a logical change, and adding a relevant
+message desribing that change.
+Cons : Only disadvantage is that if you forget to save the changes at right time, we just need
+to keep in mind to save changes after each checkpoint(milestone).
+
+Automatic Saving
+Pros : You don't need to bother about saving the file. Good for text and README files. But
+definitely not the code files.
+Cons : The save made at particular interval of time might not be logical and restoring that
+version might result into erros
+
+Why do you think some version control systems, like Git, allow saving multiple files in
+one commit, while others, like Google Docs, treat each file separately?
+
+Git was made keeping in minfd keeping the versions of project, while doing a project we make
+changes across several files, so it makes sense if we had the track of commits made,
+describing which files were updated, while Google docs is a document editing tools its purpose
+just to create docs and save it on drive. Automatic save feature is just to help user if we 
+ever forget to save the doc(which helps while internet is down, or computer is out of power).
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log gives us whole history of commits which we have made in the repository, using --stat we
+can even find the no of changes made in that commit and which files were updated, while using git 
+diff we can check the difference between two different commits.
+
+How might using version control make you more confident to make changes that could break something?
+
+Well, I can revert to previous version of code at any point of time, provided that I am commiting my code regularly.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Try adding this reflection file into repo, by creating versio-control repo on git.
