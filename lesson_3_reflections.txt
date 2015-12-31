@@ -9,3 +9,12 @@ with your remote repository?
 
 There might be changes in local repo, if git automatically pulls remote repository, then we can lose local changes.
 So I think it is a good idea to do pull request manually.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks : Cloning repository on github account. Use - For cloning to github acccount directly
+Clones : Cloning repository into local directory from a remote or local repository. 
+Use : To save repo on local machine, for working on project.
+Branches : Labels for commits. Use : For project with multiple features or an experimental feature.
+
+
