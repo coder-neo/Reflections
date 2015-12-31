@@ -26,3 +26,9 @@ Suppose I have two features in mind for the project, but I am not sure which one
 look better, in this case I can create two separate branches for both the features and 
 when I am done selecting one of the two I can merge them with master branch.
 
+How do the diagrams help you visualize the branch structure?
+
+Through diagram we can find the reachability of particular commit. For example, which
+branch should be currently checked out to reach to a commit 'which updated breaking of
+asteroids', with the help of diagram we can easily know we need check out easy-mode branch.
+
