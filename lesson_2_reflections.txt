@@ -4,3 +4,14 @@ On executing git init .git directory is created which maintains respository stru
 All the information about the commits and repository revision history is stored in this
 directory.
 
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+Working directory contains all the files in that directory while statging area
+contains the files which we want to commit and add into repository. Suppose I have
+made lots of changes in a project which spans over various files, but I want to see
+reflections of a particular changes,instead of all changes that I have made in my
+current working directory. Here staging area helps to add the particular files and 
+commit those.
+
+
