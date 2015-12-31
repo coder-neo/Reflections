@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Remote repositories help to keep the project file on the cloud, so I can access it from any computer anywhere.
+Moreover if there are more contributors to the project it make sense to have a common remote repository and 
+makes changes on it.
