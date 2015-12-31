@@ -3,3 +3,9 @@ When would you want to use a remote repository rather than keeping all your work
 Remote repositories help to keep the project file on the cloud, so I can access it from any computer anywhere.
 Moreover if there are more contributors to the project it make sense to have a common remote repository and 
 makes changes on it.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date
+with your remote repository?
+
+There might be changes in local repo, if git automatically pulls remote repository, then we can lose local changes.
+So I think it is a good idea to do pull request manually.
