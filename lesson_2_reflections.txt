@@ -32,3 +32,17 @@ Through diagram we can find the reachability of particular commit. For example, 
 branch should be currently checked out to reach to a commit 'which updated breaking of
 asteroids', with the help of diagram we can easily know we need check out easy-mode branch.
 
+What is the result of merging two branches together? Why do we represent it in the
+diagram the way we do?
+
+By merging two branches we can merge the corresponding features implemented in both branches
+and make a single branch out of it, so all features are in one place. Diagram helps us keep
+track of current repository structure.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros : Git’s automatic merging saves time, if there is not any conflict in merging
+of files. Even if there is a conflict it marks the location and where conflict occured.
+That's a huge pointer for solving that conflicts.
+
+Manual merging will be tedious.
