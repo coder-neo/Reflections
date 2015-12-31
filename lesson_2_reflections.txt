@@ -14,4 +14,15 @@ reflections of a particular changes,instead of all changes that I have made in m
 current working directory. Here staging area helps to add the particular files and 
 commit those.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+I can add the files relevant to a particular logical change and commit it first and then
+proceed to next change.
+
+What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+
+Suppose I have two features in mind for the project, but I am not sure which one will
+look better, in this case I can create two separate branches for both the features and 
+when I am done selecting one of the two I can merge them with master branch.
 
