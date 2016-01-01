@@ -22,4 +22,9 @@ What is the benefit of having a copy of the last known state of the remote store
 To find out diff between remote copy and local copy, keep track of extra commits made 
 compared to remote copy
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+If there was no version control system like github colloboration for project among contributors would 
+have been very difficult. For each update on project we might had to send project files to all team members
+through mail or file sharing service and figure out how to merge them.
 
